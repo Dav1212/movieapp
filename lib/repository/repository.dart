@@ -7,7 +7,7 @@ import 'package:movieapp/model/person_response.dart';
 import 'package:movieapp/model/video_response.dart';
 
 class MovieRepository {
-  final String apiKey = "8a1227b5735a7322c4a43a461953d4ff";
+  final String apiKey = "";
   static String mainUrl = "https://api.themoviedb.org/3";
   final Dio _dio = Dio();
   var getPopularUrl = '$mainUrl/movie/top_rated';
